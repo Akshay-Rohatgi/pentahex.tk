@@ -24,6 +24,22 @@ h2
     font-family: 'PT Mono', monospace;
     align-content: center;
 }
+/* 
+h3
+{
+  position: absolute;
+  align-content: center;
+  margin-left: 0%;
+  left: 10%;
+} */
+
+.about-container {
+  text-align: center;
+  background: #181a1b; 
+  color: #fa5b3d; 
+  padding: 20px;
+}
+
 .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
@@ -39,6 +55,7 @@ h2
       stroke-dashoffset: 0;
     }
 }
+
 .fade-in {
     animation: fadeIn ease 10s;
     -webkit-animation: fadeIn ease 10s;
