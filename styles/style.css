@@ -14,3 +14,13 @@ h1
     font-family: 'PT Mono', monospace;
 }
 
+h2
+{
+    color: #1ea7eb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'PT Mono', monospace;
+    align-content: center;
+}
