@@ -3,3 +3,14 @@ body {
     font-family: 'PT Mono', monospace;
     background-color: #181a1b;
 }
+
+h1
+{
+    color: #1ea7eb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'PT Mono', monospace;
+}
+
