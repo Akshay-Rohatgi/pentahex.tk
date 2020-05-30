@@ -1,4 +1,7 @@
-.dark {
-    background-color: black;
-    color
+html,
+body {
+    font-family: 'Manrope', sans-serif;
 }
+/* ::hover {
+
+} */
