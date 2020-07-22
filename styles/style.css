@@ -1,90 +1,16 @@
-html,
-body {
-    font-family: 'PT Mono', monospace;
-    background-color: #181a1b;
+.big-t {
+    height: 100vh;
+    min-height: 500px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name {
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0 auto;
 }
 
-h1
-{
-    color: #1ea7eb;
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: 'PT Mono', monospace;
-}
-
-h2
-{
-    color: #1ea7eb;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: 'PT Mono', monospace;
-    align-content: center;
-}
-/* 
-h3
-{
-  position: absolute;
-  align-content: center;
-  margin-left: 0%;
-  left: 10%;
-} */
-
-.about-container {
-  text-align: center;
-  background: #181a1b; 
-  color: #fa5b3d; 
-  padding: 20px;
-}
-
-.path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: dash 5s linear alternate infinite;
-    background-color: aqua;
-  }
-  
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 822;
-    }
-    to {
-      stroke-dashoffset: 0;
-    }
-}
-
-.fade-in {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
-    }
-
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+.name h1{
+    color: white;
 }
